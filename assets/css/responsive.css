@@ -1,0 +1,177 @@
+/*Responsive*/
+
+@media only screen and (min-width:1200px) and (max-width: 1500px) {
+  .service-card{
+    min-height: 70px; 
+  }
+  .service-card h4{
+    font-size: 20px;
+  }
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199px) { 
+  .autocomplete-items {
+    width: 93%;
+  }
+  .service-items a{
+    width: 38%;
+    margin: 10px;
+  }
+  .service-card{
+    min-height: 70px;
+  }
+  .service-card img{
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  .calculator-holder{
+    margin-top: 200px;
+  }
+  .about::after{
+    content: '';
+    position: absolute;
+    border-left: 100vw solid transparent;
+  } 
+  .about{
+    margin: 50px 0 0 0;
+    padding: 60px 30px;  
+  }
+  .calculator-card{
+    min-height: 310px;
+  }
+  .copyright{
+    position: inherit;
+  }
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991px) {
+.navbar-toggler{
+  outline: none;
+}
+.navbar-toggler:active, .navbar-toggler:hover, .navbar-toggler:focus{
+  outline: none;
+}
+.autocomplete-items {
+  width: 92%;
+}
+
+.hero-area {
+  padding: 100px 0 20px 0;
+}  
+
+.service-items a{
+  width: 27%;
+  margin: 10px;
+}
+.services{
+  padding-top: 0;
+}
+
+.service-card{
+  padding: 28px 20px;
+  min-height: 140px;
+}
+.service-card h4{
+  font-size: 20px;
+  margin-top: 5px;
+}
+.service-icon{
+  border-radius: 25px;
+  padding: 15px 10px;
+  width: 100px;
+  height: 100px;
+}
+.about{
+  padding: 30px 30px;  
+}
+.calculator-card{
+  min-height: 260px;
+}  
+.hero-text{
+  padding-right: 30px;
+}
+.copyright{
+  position: inherit;
+  font-size: 16px;
+}
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) {
+  .logo{ 
+    width: 70%;
+  }
+  .hero-area {
+    padding: 100px 0 20px 0;
+  }  
+  h1.main-title{
+    font-size: 26px;
+  }
+  .autocomplete-items {
+    width: 89%;
+  }
+  .service-items a{
+    width: 40%;
+    margin: 10px;
+  }
+  .services{
+    margin-top: 30px;
+  }
+  .service-card{
+    padding: 15px;
+    min-height: 60px;
+  }
+  .service-card h4{
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  .copyright{
+    position: inherit;
+    font-size: 14px;
+  }
+  .footer-right{
+    float: left;
+  }
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+  .sidenav a {
+    font-size: 17px;
+  } 
+  .hero-area {
+    padding: 140px 0 20px 0;
+  } 
+  .service-items a{
+    width: 42%;
+    margin: 10px;
+  }
+  .service-card{
+    padding: 15px 15px;
+    min-height: 120px;
+  }
+  .service-card h4{
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .service-icon{
+    border-radius: 25px;
+    padding: 15px 10px;
+  }
+  .service-card img{
+    margin-top: 0;
+  }
+  .footer-logo{ 
+    width: 50%;
+  }
+  .ad-banner{
+    display: flex;
+    justify-content: center;
+  } 
+  .calculator-list{
+    margin-top: 180px;
+  }
+  .calculator-list h3{ font-size: 24px; line-height: 30px; }
+}

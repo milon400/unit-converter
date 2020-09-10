@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- Fevicon -->
+    <link rel='shortcut icon' type='image/x-icon' href="assets/img/favicon.ico">
+
+    <title>All Calculator</title>
+
+    <meta name="keyword" content="Calculator">
+    <meta name="description" content="MPH Calculator">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- Google Fonts -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet"> -->
+
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+  </head>
+  <body>
+
+   <!-- Main Menu -->
+
+   <div class="main-menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="mySidenav" class="sidenav">
+            <img class="sidenav-logo" src="assets/img/logo.png" alt="All Calculator">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#"><img class="mr-3" src="assets/img/drawer-icon-math.png" alt="Chemistry">Common (15)</a>
+            <a href="#"><img class="mr-3" src="assets/img/drawer-icon-light.png" alt="Construction">Light (15)</a>
+            <a href="#"><img class="mr-3" src="assets/img/drawer-icon-engineering.png" alt="Conversion">Engineering (15)</a>
+            <a href="#"><img class="mr-3" src="assets/img/drawer-icon-electricity.png" alt="Ecology">Electricity (15)</a>
+            <a href="#"><img class="mr-3" src="assets/img/drawer-icon-heat.png" alt="Everyday life">Heat (15)</a>
+            <a href="#"><img class="mr-3" src="assets/img/drawer-icon-magnetism.png" alt="Finance">Magnetism (15)</a>
+            <a href="#"><img class="mr-3" src="assets/img/drawer-icon-fluid.png" alt="Food">Fluid (15)</a>
+            <a href="#"><img class="mr-3" src="assets/img/drawer-icon-radiology.png" alt="Health">Radiology (15)</a>
+          </div>
+
+          <div id="main">
+            <div class="row">
+              <div class="col-sm-6 col-lg-3">
+                <div class="header-left">
+                  <span style="font-size:30px; cursor:pointer;" onclick="openNav()">&#9776;</span>
+                  <a href="index.html"><img class="logo ml-2" src="assets/img/logo.png" alt="All Calculator"></a>
+                </div>
+              </div> 
+              <div class="col-sm-12 offset-lg-1 col-lg-5 order-sm-3 order-lg-2">
+                <div class="form-group has-search">
+                  <span class="fa fa-search form-control-feedback mt-1 mr-1"></span>
+                  <input id="myInput" name="myCountry"  class="form-control" type="text" placeholder="Search Calculator">
+                </div> 
+              </div> 
+              <div class="col-sm-6 col-lg-3 order-sm-2 order-lg-3 mt-1 mt-md-2 pb-2">
+                <div class="d-flex justify-content-end">
+                  <a href="#" target="_blank"><img class="ml-2 img-fluid" src="assets/img/icon-facebook.png" alt="facebook"></a>
+                  <a href="#" target="_blank"><img class="ml-2 img-fluid" src="assets/img/icon-twitter.png" alt="twitter"></a>
+                  <a href="#" target="_blank"><img class="ml-2 img-fluid" src="assets/img/icon-linkedin.png" alt="linkedin"></a>
+                  <a href="#" target="_blank"><img class="ml-2 img-fluid" src="assets/img/icon-instagram.png" alt="instagram"></a>
+                </div>
+              </div> 
+            </div>  
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- /Main Menu -->
+
+    <div class="content">
+
+      <!-- Services -->  
+
+      <section class="calculator-list">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-xl-8 px-0">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h3 class="mt-3 mb-4">The Purpose</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p>Far too often, we perceive the world through the lens of our emotions, feelings, and intuition. Meanwhile, a multitude of our problems can be solved with a tiny bit of math. Buy or rent a house? How long to boil an egg? Am I overweight? What it takes to answer these questions is a clear mind, a few minutes, and a mathematical formula. Three things that we often lack, so we go with hunches instead.</p>
+                    <p>In Omni Calculator, we knock down each and every obstacle that stands between you and an informed decision. We provide the numbers you need, making calculations fast, easy, and fun.</p>
+                    <p>A world driven by rational decisions is a better place. It's a world where we don't waste resources as much, believe nonsense a bit less, and don't mistake opinions for facts.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h3 class="mt-5 mb-4">The Company</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p>Omni Calculator is a Polish startup that brings you hundreds of custom-built calculators. Each of them solves a real-life problem that, while tiny, is shared by millions of people across the globe. Our calculators take only seconds to use and give you precisely the numbers you need.</p>
+                    <p>We're called Omni Calculator for a single reason – our goal is to solve all small math problems that people deal with on an everyday basis.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h3 class="mt-5 mb-4">The Story</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p>It all started with a hobby experiment back in 2011. Mateusz Mucha, our founder, built a web calculator with a unique twist: it could calculate in any direction, without a fixed input or output. This original feature was carried further to a mobile app Percentage Calculator. The app was as low-budget as they come – Mateusz spent a whopping $80 on translating it into fifteen languages – but gained traction at an astounding pace, reaching over 4 million downloads so far.</p>
+                    <p>In 2014, Mateusz turned his side project into a business. Participating in the startup accelerator Axel Springer Plug and Play in Berlin made him realize that everyday math problems are a universal struggle. And, what's crucial for the company, they encompass much more than just percentages. This is when it was settled: instead of calculating one thing, we'll calculate all of them – for everybody.</p>
+                    <p>This decision led to a series of tough choices. If the new product was to be universal, it had to be free of charge. If it was to help people all around the globe, putting together a marketing strategy was a nightmare. If it was to be omnicompetent… Well, at least the choice of the name was obvious. The hobby project became Omni Calculator.</p>
+                    <p>Fast forward a few years, and Omni is at its best. Since 2016, we expanded from 20 thousand to over 5 million visits a month. In 2018, the company comprised of five people; one year later, we're a team of twenty-four. Eighteen months ago, our office didn't even have a printer… you get the point.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h3 class="mt-5 mb-4">The Vision</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p>Despite solving five million problems every month, we know we've barely scratched the surface. There are more people to reach, and more math to be done. That's why our collection of calculators grows every day and won't stop until we respond to all computable needs.</p>
+                    <p>Currently, if you want to solve a math problem, you will either use a calculator app or a spreadsheet. We link the simplicity of the former with the comprehensiveness of the latter – and we aspire to become a go-to tool that solves math problems for everyone on the planet. Whether you're a college freshman, a carpenter, an athlete, or a high-profile manager, we'll create calculators tailored to your taste.</p>
+                    <p>The default calculator you’re using today still assumes you know required formulas and feel comfortable with arithmetics. More often than not, it’s not the case. It’s about time these problems got easy for everybody.</p>
+                  </div>
+                </div>
+              </div> 
+            </div>
+            <div class="col-lg-12 col-xl-3 offset-xl-1">
+              <div class="row px-0">
+                <div class="col-sm-6 col-md-6 col-xl-12">
+                  <a href="#">
+                    <div class="cal-related-card mt-1 mt-sm-4">
+                      <div class="cal-related-content">
+                        Buffer Capacity Calculator
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-12">
+                  <a href="#">
+                    <div class="cal-related-card mt-3 mt-sm-4">
+                      <div class="cal-related-content">
+                        Buffer pH Calculator
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-12">
+                  <a href="#">
+                    <div class="cal-related-card mt-3 mt-sm-4">
+                      <div class="cal-related-content">
+                        Cell EMF Calculator
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-12">
+                  <a href="#">
+                    <div class="cal-related-card mt-3 mt-sm-4">
+                      <div class="cal-related-content">
+                        More Calculators
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-12">
+                  <a href="#">
+                    <div class="cal-related-card mt-3 mt-sm-4">
+                      <div class="cal-related-content">
+                        Buffer Capacity Calculator
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-12">
+                  <a href="#">
+                    <div class="cal-related-card mt-3 mt-sm-4">
+                      <div class="cal-related-content">
+                        Buffer pH Calculator
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-12">
+                  <a href="#">
+                    <div class="cal-related-card mt-3 mt-sm-4">
+                      <div class="cal-related-content">
+                        Cell EMF Calculator
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-xl-12">
+                  <a href="#">
+                    <div class="cal-related-card mt-3 mt-sm-4">
+                      <div class="cal-related-content">
+                        More Calculators
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>       
+      </section>
+
+      <!-- /Services -->               
+
+      <!-- Footer -->
+
+      <footer>
+        <div class="container">
+          <div class="row">
+              <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <a href="index.html"><img class="footer-logo" src="assets/img/logo.png" alt="All Calculators"></a>
+                <p>Free Online Calculators</p>
+                <div class="btn-group">
+                  <a href="#" target="_blank">
+                    <img class="img-fluid" src="assets/img/icon-social-facebook.png" alt="facebook">
+                  </a>  
+                  <a href="#" target="_blank">  
+                    <img class="ml-2 img-fluid" src="assets/img/icon-social-twitter.png" alt="twitter">
+                  </a>
+                  <a href="#" target="_blank">  
+                    <img class="ml-2 img-fluid" src="assets/img/icon-social-instagram.png" alt="instagram">
+                  </a>
+                  <a href="#" target="_blank">  
+                    <img class="ml-2 img-fluid" src="assets/img/icon-social-linkedin.png" alt="twitter">
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-6 col-lg-3 offset-lg-3">
+                <a href="about.html">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Blog</a>
+              </div>
+              <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <a href="#" target="_blank">All calculators</a>
+                <a href="#" target="_blank">Calculator collections</a>
+                <a href="#" target="_blank">Partnership</a>
+              </div>
+          </div>
+        </div>
+      </footer>     
+
+      <!-- /Footer -->
+
+      <!-- copyright -->
+      <div class="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="copyright-left pt-3">
+                © Copyright 2020 All Calculator<span class="px-3">|</span>All Rights Reserved.
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="copyright-right pt-3">
+                <a href="#">Terms &amp; Conditions</a><span class="px-3">|</span><a href="#">Privacy Policy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /copyright -->
+    </div>
+    
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+
+    <!-- Main Js -->
+    <script src="assets/js/custom.js"></script>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        // document.getElementById("main").style.marginLeft = "250px";
+        // document.body.style.backgroundColor = "rgba(0,0,0,0.1)";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        // document.getElementById("main").style.marginLeft= "0";
+        // document.body.style.backgroundColor = "white";
+      }
+    </script>
+    <script>
+      function autocomplete(inp, arr) {
+        /*the autocomplete function takes two arguments,
+        the text field element and an array of possible autocompleted values:*/
+        var currentFocus;
+        /*execute a function when someone writes in the text field:*/
+        inp.addEventListener("input", function(e) {
+            var a, b, i, val = this.value;
+            /*close any already open lists of autocompleted values*/
+            closeAllLists();
+            if (!val) { return false;}
+            currentFocus = -1;
+            /*create a DIV element that will contain the items (values):*/
+            a = document.createElement("DIV");
+            a.setAttribute("id", this.id + "autocomplete-list");
+            a.setAttribute("class", "autocomplete-items");
+            /*append the DIV element as a child of the autocomplete container:*/
+            this.parentNode.appendChild(a);
+            /*for each item in the array...*/
+            for (i = 0; i < arr.length; i++) {
+              /*check if the item starts with the same letters as the text field value:*/
+              if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+                /*create a DIV element for each matching element:*/
+                b = document.createElement("DIV");
+                /*make the matching letters bold:*/
+                b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+                b.innerHTML += arr[i].substr(val.length);
+                /*insert a input field that will hold the current array item's value:*/
+                b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+                /*execute a function when someone clicks on the item value (DIV element):*/
+                b.addEventListener("click", function(e) {
+                    /*insert the value for the autocomplete text field:*/
+                    inp.value = this.getElementsByTagName("input")[0].value;
+                    /*close the list of autocompleted values,
+                    (or any other open lists of autocompleted values:*/
+                    closeAllLists();
+                });
+                a.appendChild(b);
+              }
+            }
+        });
+        /*execute a function presses a key on the keyboard:*/
+        inp.addEventListener("keydown", function(e) {
+            var x = document.getElementById(this.id + "autocomplete-list");
+            if (x) x = x.getElementsByTagName("div");
+            if (e.keyCode == 40) {
+              /*If the arrow DOWN key is pressed,
+              increase the currentFocus variable:*/
+              currentFocus++;
+              /*and and make the current item more visible:*/
+              addActive(x);
+            } else if (e.keyCode == 38) { //up
+              /*If the arrow UP key is pressed,
+              decrease the currentFocus variable:*/
+              currentFocus--;
+              /*and and make the current item more visible:*/
+              addActive(x);
+            } else if (e.keyCode == 13) {
+              /*If the ENTER key is pressed, prevent the form from being submitted,*/
+              e.preventDefault();
+              if (currentFocus > -1) {
+                /*and simulate a click on the "active" item:*/
+                if (x) x[currentFocus].click();
+              }
+            }
+        });
+        function addActive(x) {
+          if (!x) return false;
+          removeActive(x);
+          if (currentFocus >= x.length) currentFocus = 0;
+          if (currentFocus < 0) currentFocus = (x.length - 1);
+          x[currentFocus].classList.add("autocomplete-active");
+        }
+        function removeActive(x) {
+          for (var i = 0; i < x.length; i++) {
+            x[i].classList.remove("autocomplete-active");
+          }
+        }
+        function closeAllLists(elmnt) {
+
+          var x = document.getElementsByClassName("autocomplete-items");
+          for (var i = 0; i < x.length; i++) {
+            if (elmnt != x[i] && elmnt != inp) {
+              x[i].parentNode.removeChild(x[i]);
+            }
+          }
+        }
+        document.addEventListener("click", function (e) {
+            closeAllLists(e.target);
+        });
+      }
+
+      var countries = ["Afghanistan","Albania","Algeria","Andorra","Angola", "Bahrain","Bangladesh","Barbados","Belarus","Bhutan","Bolivia","Brazil","Cambodia","Cameroon","Canada","Cape Verde","Cayman Islands","Central Arfrican Republic","Chad","Chile","China","Colombia","Denmark","Djibouti","Dominica","Dominican Republic","Ecuador","Egypt","El Salvador","Equatorial Guinea","Eritrea","Estonia","Ethiopia","Fiji","Finland","France","Gabon","Gambia","Georgia","Germany","Ghana","Gibraltar","Greece","Honduras","Hong Kong","Hungary","Iceland","India","Indonesia","Iran","Iraq","Ireland","Italy","Jamaica","Japan","Jersey","Jordan","Kazakhstan","Kenya","Kuwait","Kyrgyzstan","Laos","Latvia","Lebanon","Lesotho","Liberia","Libya","Malaysia","Maldives","Mali","Mexico","Micronesia","Moldova","Monaco","Mongolia","Namibia","Nauro","Nepal","Netherlands","Netherlands Antilles","New Caledonia","New Zealand","Nicaragua","Niger","Nigeria","North Korea","Norway","Oman","Pakistan","Palau","Palestine","Panama","Papua New Guinea","Paraguay","Peru","Philippines","Poland","Portugal","Puerto Rico","Qatar","Reunion","Romania","Russia","Saudi Arabia","Senegal","Sierra Leone","Singapore","Slovakia","South Africa","South Korea","Spain","Sri Lanka","Suriname","Swaziland","Sweden","Switzerland","Syria","Taiwan","Tajikistan","Tanzania","Thailand","Tunisia","Turkey","Turkmenistan","Uganda","Ukraine","United Arab Emirates","United Kingdom","United States of America","Uruguay","Uzbekistan","Vanuatu","Vatican City","Venezuela","Vietnam","Yemen","Zambia","Zimbabwe"];
+      
+      autocomplete(document.getElementById("myInput"), countries);
+      </script>
+
+  </body>
+</html>

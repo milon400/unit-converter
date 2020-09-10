@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- Fevicon -->
+    <link rel='shortcut icon' type='image/x-icon' href="assets/img/favicon.ico">
+
+    <title>All Calculator</title>
+
+    <meta name="keyword" content="Calculator">
+    <meta name="description" content="MPH Calculator">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- Google Fonts -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet"> -->
+
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+  </head>
+  <body>
+
+   <!-- Main Menu -->
+
+   <div class="main-menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="mySidenav" class="sidenav">
+            <img class="sidenav-logo" src="assets/img/logo.png" alt="All Calculator">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#"><img class="mr-3" src="assets/img/drawer-icon-math.png" alt="Chemistry">Common (15)</a>
+            <a href="#"><img class="mr-3" src="assets/img/drawer-icon-light.png" alt="Construction">Light (15)</a>
+            <a href="#"><img class="mr-3" src="assets/img/drawer-icon-engineering.png" alt="Conversion">Engineering (15)</a>
+            <a href="#"><img class="mr-3" src="assets/img/drawer-icon-electricity.png" alt="Ecology">Electricity (15)</a>
+            <a href="#"><img class="mr-3" src="assets/img/drawer-icon-heat.png" alt="Everyday life">Heat (15)</a>
+            <a href="#"><img class="mr-3" src="assets/img/drawer-icon-magnetism.png" alt="Finance">Magnetism (15)</a>
+            <a href="#"><img class="mr-3" src="assets/img/drawer-icon-fluid.png" alt="Food">Fluid (15)</a>
+            <a href="#"><img class="mr-3" src="assets/img/drawer-icon-radiology.png" alt="Health">Radiology (15)</a>
+          </div>
+
+          <div id="main">
+            <div class="row">
+              <div class="col-sm-6 col-lg-3">
+                <div class="header-left">
+                  <span style="font-size:30px; cursor:pointer;" onclick="openNav()">&#9776;</span>
+                  <a href="index.html"><img class="logo ml-2" src="assets/img/logo.png" alt="All Calculator"></a>
+                </div>
+              </div> 
+              <div class="col-sm-12 offset-lg-1 col-lg-5 order-sm-3 order-lg-2">
+                <div class="form-group has-search">
+                  <span class="fa fa-search form-control-feedback mt-1 mr-1"></span>
+                  <input id="myInput" name="myCountry"  class="form-control" type="text" placeholder="Search Calculator">
+                </div> 
+              </div> 
+              <div class="col-sm-6 col-lg-3 order-sm-2 order-lg-3 mt-1 mt-md-2 pb-2">
+                <div class="d-flex justify-content-end">
+                  <a href="#" target="_blank"><img class="ml-2 img-fluid" src="assets/img/icon-facebook.png" alt="facebook"></a>
+                  <a href="#" target="_blank"><img class="ml-2 img-fluid" src="assets/img/icon-twitter.png" alt="twitter"></a>
+                  <a href="#" target="_blank"><img class="ml-2 img-fluid" src="assets/img/icon-linkedin.png" alt="linkedin"></a>
+                  <a href="#" target="_blank"><img class="ml-2 img-fluid" src="assets/img/icon-instagram.png" alt="instagram"></a>
+                </div>
+              </div> 
+            </div>  
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- /Main Menu -->
+
+    <div class="content">
+
+      <section class="calculator-list">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-xl-4 pl-sm-0">
+              <div class="calculator-holder mb-4 mt-4 mt-sm-5 mt-md-5 mt-lg-4">
+                <h4>What is p% of x?</h4>
+                <div class="calculator-container mt-3 mb-4">
+                  <div class="form-group cal-input">
+                    <span class="form-control-feedback mt-2 mr-1">%</span>
+                    <input type="text" class="form-control" placeholder="What is?">
+                  </div>
+                  <div class="form-group cal-input">
+                      <span class="form-control-feedback mt-2">mol/</span>
+                      <datalist id="list-items">
+                        <option value="Firefox">
+                        <option value="Chrome">
+                        <option value="Safari">
+                      </datalist>
+                    <input type="text" list="list-items" name="browser" class="form-control" placeholder="of">
+                  </div>
+                  <div class="result">
+                  <p class="pl-2">y =</p>
+                  <div class="d-flex justify-content-center">
+                    <img class="img-equation img-fluid py-2" src="assets/img/eq-percentage-02.png" alt="All Calculators">
+                  </div>
+                  </div>
+                </div>
+                <h4>x is what percent of y?</h4>
+                <div class="calculator-container mt-3 mb-4">
+                  <div class="form-group cal-input">
+                    <span class="form-control-feedback mt-2 mr-1">%</span>
+                    <input type="text" class="form-control" placeholder="What is?">
+                  </div>
+                  <div class="form-group cal-input">
+                    <span class="form-control-feedback mt-2 mr-1">?</span>
+                    <input type="text" class="form-control" placeholder="of">
+                  </div>
+                  <div class="result">
+                  <p class="pl-2">y =</p>
+                  <div class="d-flex justify-content-center">
+                    <img class="img-equation img-fluid py-2" src="assets/img/eq-percentage-03.png" alt="All Calculators">
+                  </div>
+                  </div>
+                </div>
+              </div>  
+            </div>
+            <div class="col-md-6 col-xl-4 pr-sm-0 mt-4 mt-md-5 mt-lg-4">
+              <h3 class="mb-4 mt-4 mt-md-0">What is buffer capacity? - buffer capacity definition</h3>
+              <p>The buffer capacity calculator is here to help you calculate and understand how much your buffer will resist a change in pH. Keep reading to find out why we need buffers, and how to calculate their capacity with the buffer capacity equation.</p>
+              <p>This tool requires at least some knowledge of what pH is and how to determine the pH of a solution. We recommend you explore these topics before delving into the calculator proper, as it will make it easier for you to understand what is buffer capacity.</p>
+
+              <h3 class="mt-5 mb-4">Buffer capacity equation</h3>
+              <p>The buffer capacity calculator is here to help you calculate and understand how much your buffer will resist a change in pH. Keep reading to find out why we need buffers, and how to calculate their capacity with the buffer capacity equation.</p>
+              <p>This tool requires at least some knowledge of what pH is and how to determine the pH of a solution. We recommend you explore these topics before delving into the calculator proper, as it will make it easier for you to understand what is buffer capacity.</p>
+
+              <h3 class="mt-5 mb-4">What is the percent error?</h3>
+              <p>The buffer capacity calculator is here to help you calculate and understand how much your buffer will resist a change in pH. Keep reading to find out why we need buffers, and how to calculate their capacity with the buffer capacity equation.</p>
+              <p>This tool requires at least some knowledge of what pH is and how to determine the pH of a solution. We recommend you explore these topics before delving into the calculator proper, as it will make it easier for you to understand what is buffer capacity.</p>
+
+              <h3 class="mt-5 mb-4">What is the percent error?</h3>
+              <p>The buffer capacity calculator is here to help you calculate and understand how much your buffer will resist a change in pH. Keep reading to find out why we need buffers, and how to calculate their capacity with the buffer capacity equation.</p>
+              <p>This tool requires at least some knowledge of what pH is and how to determine the pH of a solution. We recommend you explore these topics before delving into the calculator proper, as it will make it easier for you to understand what is buffer capacity.</p>
+
+              <h3 class="mt-5 mb-4">What is the percent error?</h3>
+              <p>The buffer capacity calculator is here to help you calculate and understand how much your buffer will resist a change in pH. Keep reading to find out why we need buffers, and how to calculate their capacity with the buffer capacity equation.</p>
+              <p>This tool requires at least some knowledge of what pH is and how to determine the pH of a solution. We recommend you explore these topics before delving into the calculator proper, as it will make it easier for you to understand what is buffer capacity.</p>
+
+              <h3 class="mt-5 mb-4">What is the percent error?</h3>
+              <p>The buffer capacity calculator is here to help you calculate and understand how much your buffer will resist a change in pH. Keep reading to find out why we need buffers, and how to calculate their capacity with the buffer capacity equation.</p>
+              <p>This tool requires at least some knowledge of what pH is and how to determine the pH of a solution. We recommend you explore these topics before delving into the calculator proper, as it will make it easier for you to understand what is buffer capacity.</p>
+            </div>
+            <div class="col-lg-4 pl-sm-0">
+              <div class="ad-container d-flex justify-content-end">
+                <img class="ad-img img-fluid d-none d-xl-block mt-4" src="assets/img/ad-02.jpg" alt="All Calculators">
+              </div>
+            </div>
+          </div>
+        </div>       
+      </section>            
+
+      <!-- Footer -->
+
+      <footer>
+        <div class="container">
+          <div class="row">
+              <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <a href="index.html"><img class="footer-logo" src="assets/img/logo.png" alt="All Calculators"></a>
+                <p>Free Online Calculators</p>
+                <div class="btn-group">
+                  <a href="#" target="_blank">
+                    <img class="img-fluid" src="assets/img/icon-social-facebook.png" alt="facebook">
+                  </a>  
+                  <a href="#" target="_blank">  
+                    <img class="ml-2 img-fluid" src="assets/img/icon-social-twitter.png" alt="twitter">
+                  </a>
+                  <a href="#" target="_blank">  
+                    <img class="ml-2 img-fluid" src="assets/img/icon-social-instagram.png" alt="instagram">
+                  </a>
+                  <a href="#" target="_blank">  
+                    <img class="ml-2 img-fluid" src="assets/img/icon-social-linkedin.png" alt="twitter">
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-6 col-lg-3 offset-lg-3">
+                <a href="about.html">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Blog</a>
+              </div>
+              <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <a href="#" target="_blank">All calculators</a>
+                <a href="#" target="_blank">Calculator collections</a>
+                <a href="#" target="_blank">Partnership</a>
+              </div>
+          </div>
+        </div>
+      </footer>       
+
+      <!-- /Footer -->
+
+      <!-- copyright -->
+      <div class="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="copyright-left pt-3">
+                © Copyright 2020 All Calculator<span class="px-3">|</span>All Rights Reserved.
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="copyright-right pt-3">
+                <a href="#">Terms &amp; Conditions</a><span class="px-3">|</span><a href="#">Privacy Policy</a><span class="pl-3">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /copyright -->
+    </div>
+    
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+
+    <!-- Main Js -->
+    <script src="assets/js/custom.js"></script>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        // document.getElementById("main").style.marginLeft = "250px";
+        // document.body.style.backgroundColor = "rgba(0,0,0,0.1)";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        // document.getElementById("main").style.marginLeft= "0";
+        // document.body.style.backgroundColor = "white";
+      }
+    </script>
+    <script>
+      function autocomplete(inp, arr) {
+        /*the autocomplete function takes two arguments,
+        the text field element and an array of possible autocompleted values:*/
+        var currentFocus;
+        /*execute a function when someone writes in the text field:*/
+        inp.addEventListener("input", function(e) {
+            var a, b, i, val = this.value;
+            /*close any already open lists of autocompleted values*/
+            closeAllLists();
+            if (!val) { return false;}
+            currentFocus = -1;
+            /*create a DIV element that will contain the items (values):*/
+            a = document.createElement("DIV");
+            a.setAttribute("id", this.id + "autocomplete-list");
+            a.setAttribute("class", "autocomplete-items");
+            /*append the DIV element as a child of the autocomplete container:*/
+            this.parentNode.appendChild(a);
+            /*for each item in the array...*/
+            for (i = 0; i < arr.length; i++) {
+              /*check if the item starts with the same letters as the text field value:*/
+              if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+                /*create a DIV element for each matching element:*/
+                b = document.createElement("DIV");
+                /*make the matching letters bold:*/
+                b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+                b.innerHTML += arr[i].substr(val.length);
+                /*insert a input field that will hold the current array item's value:*/
+                b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+                /*execute a function when someone clicks on the item value (DIV element):*/
+                b.addEventListener("click", function(e) {
+                    /*insert the value for the autocomplete text field:*/
+                    inp.value = this.getElementsByTagName("input")[0].value;
+                    /*close the list of autocompleted values,
+                    (or any other open lists of autocompleted values:*/
+                    closeAllLists();
+                });
+                a.appendChild(b);
+              }
+            }
+        });
+        /*execute a function presses a key on the keyboard:*/
+        inp.addEventListener("keydown", function(e) {
+            var x = document.getElementById(this.id + "autocomplete-list");
+            if (x) x = x.getElementsByTagName("div");
+            if (e.keyCode == 40) {
+              /*If the arrow DOWN key is pressed,
+              increase the currentFocus variable:*/
+              currentFocus++;
+              /*and and make the current item more visible:*/
+              addActive(x);
+            } else if (e.keyCode == 38) { //up
+              /*If the arrow UP key is pressed,
+              decrease the currentFocus variable:*/
+              currentFocus--;
+              /*and and make the current item more visible:*/
+              addActive(x);
+            } else if (e.keyCode == 13) {
+              /*If the ENTER key is pressed, prevent the form from being submitted,*/
+              e.preventDefault();
+              if (currentFocus > -1) {
+                /*and simulate a click on the "active" item:*/
+                if (x) x[currentFocus].click();
+              }
+            }
+        });
+        function addActive(x) {
+          if (!x) return false;
+          removeActive(x);
+          if (currentFocus >= x.length) currentFocus = 0;
+          if (currentFocus < 0) currentFocus = (x.length - 1);
+          x[currentFocus].classList.add("autocomplete-active");
+        }
+        function removeActive(x) {
+          for (var i = 0; i < x.length; i++) {
+            x[i].classList.remove("autocomplete-active");
+          }
+        }
+        function closeAllLists(elmnt) {
+
+          var x = document.getElementsByClassName("autocomplete-items");
+          for (var i = 0; i < x.length; i++) {
+            if (elmnt != x[i] && elmnt != inp) {
+              x[i].parentNode.removeChild(x[i]);
+            }
+          }
+        }
+        document.addEventListener("click", function (e) {
+            closeAllLists(e.target);
+        });
+      }
+
+      var countries = ["Afghanistan","Albania","Algeria","Andorra","Angola", "Bahrain","Bangladesh","Barbados","Belarus","Bhutan","Bolivia","Brazil","Cambodia","Cameroon","Canada","Cape Verde","Cayman Islands","Central Arfrican Republic","Chad","Chile","China","Colombia","Denmark","Djibouti","Dominica","Dominican Republic","Ecuador","Egypt","El Salvador","Equatorial Guinea","Eritrea","Estonia","Ethiopia","Fiji","Finland","France","Gabon","Gambia","Georgia","Germany","Ghana","Gibraltar","Greece","Honduras","Hong Kong","Hungary","Iceland","India","Indonesia","Iran","Iraq","Ireland","Italy","Jamaica","Japan","Jersey","Jordan","Kazakhstan","Kenya","Kuwait","Kyrgyzstan","Laos","Latvia","Lebanon","Lesotho","Liberia","Libya","Malaysia","Maldives","Mali","Mexico","Micronesia","Moldova","Monaco","Mongolia","Namibia","Nauro","Nepal","Netherlands","Netherlands Antilles","New Caledonia","New Zealand","Nicaragua","Niger","Nigeria","North Korea","Norway","Oman","Pakistan","Palau","Palestine","Panama","Papua New Guinea","Paraguay","Peru","Philippines","Poland","Portugal","Puerto Rico","Qatar","Reunion","Romania","Russia","Saudi Arabia","Senegal","Sierra Leone","Singapore","Slovakia","South Africa","South Korea","Spain","Sri Lanka","Suriname","Swaziland","Sweden","Switzerland","Syria","Taiwan","Tajikistan","Tanzania","Thailand","Tunisia","Turkey","Turkmenistan","Uganda","Ukraine","United Arab Emirates","United Kingdom","United States of America","Uruguay","Uzbekistan","Vanuatu","Vatican City","Venezuela","Vietnam","Yemen","Zambia","Zimbabwe"];
+      
+      autocomplete(document.getElementById("myInput"), countries);
+      </script>
+
+  </body>
+</html>
